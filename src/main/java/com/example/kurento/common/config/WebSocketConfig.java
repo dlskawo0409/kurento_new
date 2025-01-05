@@ -15,7 +15,6 @@ import lombok.RequiredArgsConstructor;
 
 @Configuration
 @RequiredArgsConstructor
-@EnableWebMvc
 @EnableWebSocket
 public class WebSocketConfig implements WebSocketConfigurer {
 
